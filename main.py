@@ -219,7 +219,7 @@ class ManifestAutoUpdate:
                     if delete_list:
                         app_repo.git.rm(delete_list)
                     app_repo.git.add(f'{depot_id}_{manifest_gid}.manifest')
-                    #修改将资源Key保存到Key.vdf，新增appinfo(保存app信息)，新增config.json(保存depot_id和dlc_id)
+                    #修改将资源Key保存到Key.vdf，新增appinfo(保存app信息 DLC(包括独立DLC))，新增config.json(保存depot_id和dlc_id)
                     app_repo.git.add('Key.vdf')
                     app_repo.git.add('config.json')
                     app_repo.git.add('appinfo.vdf')
@@ -394,7 +394,6 @@ class ManifestAutoUpdate:
                 self.log.debug(f'manifest_commit: {manifest_commit}')
                 return Result(result=True, app_id=app_id, depot_id=depot.depot_id, manifest_gid=depot.gid,
                               manifest_commit=manifest_commit)
-        #with lock:
         return get_manifest(cdn,app_id,appinfo,package,depot, True, self.ROOT, self.retry_num)
 
     def get_manifest(self, username, password, sentry_name=None):
@@ -456,6 +455,7 @@ class ManifestAutoUpdate:
                     continue
                 self.log.debug(f'Lock app: {app_id}')
                 self.app_lock[int(app_id)] = set()
+            #改为get_manifests获取manifests
             manifests = cdn.get_manifests(int(app_id))
             if not manifests:
                 continue
@@ -586,6 +586,7 @@ class ManifestAutoUpdate:
                             update_app_user[int(app_id)] = []
                         update_app_user[int(app_id)].append(user)
                         update_user_set.add(user)
+                        #导出可以账户和密码到Avalidaccountlist
                         #self.Avalidaccountlist.update({user:self.account_info[user][0]})
         self.log.debug(str(update_app_user))
         for user in self.account_info:
@@ -597,6 +598,7 @@ class ManifestAutoUpdate:
             self.appuserlist.update({app_id:",".join(user_list)})
             self.log.info(f'{app_id}: {",".join(user_list)}')
         self.appuserlist.dump()
+        #导出可以账户和密码到Avalidaccountlist
         #self.Avalidaccountlist.dump()
         self.log.info(f'{len(update_app_user)} app and {len(self.update_user_list)} users need to update!')
         return self.update_user_list
