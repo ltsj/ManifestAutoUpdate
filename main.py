@@ -213,21 +213,18 @@ class ManifestAutoUpdate:
             self.set_depot_info(depot_id, manifest_gid)
             app_repo = git.Repo(app_path)
             with lock:
-                #tag_name = f'{depot_id}_{manifest_gid}'
-                #if tag_name in app_repo.tags:
-                    #app_repo.delete_tag(tag_name)
-                #if manifest_commit:
-                    #app_repo.create_tag(f'{depot_id}_{manifest_gid}', manifest_commit)
-                #else:
+                if manifest_commit:
+                    app_repo.create_tag(f'{depot_id}_{manifest_gid}', manifest_commit)
+                else:
                     if delete_list:
                         app_repo.git.rm(delete_list)
-                    #app_repo.git.add(f'{depot_id}_{manifest_gid}.manifest')
+                    app_repo.git.add(f'{depot_id}_{manifest_gid}.manifest')
                     #修改将资源Key保存到Key.vdf，新增appinfo(保存app信息)，新增config.json(保存depot_id和dlc_id)
                     app_repo.git.add('Key.vdf')
                     app_repo.git.add('config.json')
                     app_repo.git.add('appinfo.vdf')
-                    #app_repo.index.commit(f'Update depot: {depot_id}_{manifest_gid}')
-                    #app_repo.create_tag(f'{depot_id}_{manifest_gid}')
+                    app_repo.index.commit(f'Update depot: {depot_id}_{manifest_gid}')
+                    app_repo.create_tag(f'{depot_id}_{manifest_gid}')
         except KeyboardInterrupt:
             raise
         except:
@@ -490,9 +487,9 @@ class ManifestAutoUpdate:
                 with lock:
                     if int(app_id) not in self.user_info[username]['app']:
                         self.user_info[username]['app'].append(int(app_id))
-                    #if self.check_manifest_exist(depot_id, manifest_gid):
-                        #self.log.info(f'Already got the manifest: {depot_id}_{manifest_gid}')
-                        #continue
+                    if self.check_manifest_exist(depot_id, manifest_gid):
+                        self.log.info(f'Already got the manifest: {depot_id}_{manifest_gid}')
+                        continue
                 flag = False
                 job = gevent.Greenlet(LogExceptions(self.async_task), cdn, app_id,app,package,depot)
                 job.rawlink(functools.partial(self.get_manifest_callback, username, app_id, depot_id, manifest_gid))
