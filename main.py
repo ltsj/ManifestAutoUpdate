@@ -216,9 +216,9 @@ class ManifestAutoUpdate:
                 #tag_name = f'{depot_id}_{manifest_gid}'
                 #if tag_name in app_repo.tags:
                     #app_repo.delete_tag(tag_name)
-                if manifest_commit:
+                #if manifest_commit:
                     #app_repo.create_tag(f'{depot_id}_{manifest_gid}', manifest_commit)
-                else:
+                #else:
                     if delete_list:
                         app_repo.git.rm(delete_list)
                     #app_repo.git.add(f'{depot_id}_{manifest_gid}.manifest')
