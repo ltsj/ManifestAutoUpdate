@@ -466,7 +466,6 @@ class ManifestAutoUpdate:
             app = fresh_resp['apps'][app_id]
             package = {'dlcs': [], 'packagedlcs': []}
             dlcappids = {}
-            manifestsLen = len(manifests)-1
             if 'extended' in app and 'listofdlc' in app['extended']:
                 dlc_list = list(map(int, app['extended']['listofdlc'].split(',')))
                 package['dlcs'] = dlc_list
@@ -478,16 +477,16 @@ class ManifestAutoUpdate:
                 for depotid, info in app['depots'].items():
                     if 'dlcappid' in info and 'manifests' in info:
                         dlcappids[depotid]=int(info['dlcappid'])
-            for index, depot in enumerate(manifests):
+                for depot in manifests:
+                    dlcappids.pop(str(depot.depot_id), None)
+                for value in dlcappids.values():
+                    if value in package['dlcs']:
+                         package['dlcs'].remove(value)
+            for depot in manifests:
                 depot_id = str(depot.depot_id)
                 manifest_gid = str(depot.gid)
                 self.app_lock[int(app_id)].add(depot_id)
                 self.set_depot_info(depot_id, manifest_gid)
-                dlcappids.pop(depot_id, None)
-                if index == manifestsLen:
-                    for value in dlcappids.values():
-                        if value in package['dlcs']:
-                            package['dlcs'].remove(value)
                 with lock:
                     if int(app_id) not in self.user_info[username]['app']:
                         self.user_info[username]['app'].append(int(app_id))
