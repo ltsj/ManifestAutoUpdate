@@ -1,4 +1,4 @@
-//填写相关参数打开70games网页随便进一个帖子，进入游览器开发者模式，在控制台粘贴此代码回车运行
+//填写相关参数打开70games网页，进入游览器开发者模式，在控制台粘贴此代码回车运行
 
 //填入Cookie
 const Cookie = ''
@@ -58,30 +58,7 @@ async function getData() {
     }
     for (let i = 0; i < hrefValues.length; i++) {
     const firstNumber = parseInt(hrefValues[i].match(/\d+/)[0]);
-    $.xpost(`post-create-${firstNumber}-1.htm`, `doctype=1&return_html=1&quotepid=0&sid=${sid}&message=2%0D%0A`,function(code, message) {
-		if(code == 0) {
-			var s = '<ul>'+message+'</ul>';
-			var jli = $(s).find('li');
-			jli.insertBefore($('.postlist > .post').last());
-			jsubmit.button('reset');
-			$('#message').val('');
-			
-			// 楼层 +1
-			var jfloor = $('#newfloor');
-			jfloor.html(xn.intval(jfloor.html()) + 1);
-			
-			// 回复数 +1
-			var jposts = $('.posts');
-			jposts.html(xn.intval(jposts.html()) + 1);
-			
-		} else if(code < 0) {
-			$.alert(message);
-			jsubmit.button('reset');
-		} else {
-			jform.find('[name="'+code+'"]').alert(message).focus();
-			jsubmit.button('reset');
-		}
-	}, undefined);
+    $.xpost(`post-create-${firstNumber}-1.htm`, `doctype=1&return_html=1&quotepid=0&sid=${sid}&message=2%0D%0A`,function(code, message) {}, undefined);
       var Values = [];
       const data = await sendGetRequest(hrefValues[i]);
       const elements = parser.parseFromString(data, 'text/html').querySelectorAll('.coded.col');
