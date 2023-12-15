@@ -318,7 +318,7 @@ class MyCDNClient(CDNClient):
         is_enc_branch = False
 
         if branch not in depots.get('branches', {}):
-            return manifests
+            raise SteamError("No branch named %s for app_id %s" % (repr(branch), app_id))
         elif int(depots['branches'][branch].get('pwdrequired', 0)) > 0:
             is_enc_branch = True
 
