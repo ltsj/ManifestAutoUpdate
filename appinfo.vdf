@@ -1,0 +1,1694 @@
+"appid" "1149620"
+"common"
+{
+	"name" "Gas Station Simulator"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"osarch" "64"
+	"osextended" "macos64,macosapplesilicon"
+	"logo" "06efc24b6595b5da3bf40790aa3372732644d7d3"
+	"logo_small" "06efc24b6595b5da3bf40790aa3372732644d7d3_thumb"
+	"icon" "7b57c38b066dfe58882cc358f379060ae36dfe1f"
+	"clienticon" "b092cb1688a23e5dd1c600539e8352030cf834b9"
+	"clienttga" "86161b0068904595f44a3d1a782e91d9c0f1784e"
+	"name_localized"
+	{
+		"schinese" "加油站大亨"
+		"tchinese" "加油站大亨"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1666742400"
+		"tested_build_id" "9592134"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-7.0-5"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Gas Station Simulator"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+		"tchinese" "capsule_231x87_tchinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+		"tchinese" "header_tchinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn,zh-tw"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn,zh-tw"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "55.95861799699351"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+				"tchinese" "library_600x900_tchinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+				"tchinese" "library_600x900_tchinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+				"tchinese" "logo_tchinese.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "55.95861799699351"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+				"tchinese" "logo_tchinese_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1722443647"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "DRAGO entertainment"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "DRAGO entertainment"
+		}
+		"2"
+		{
+			"type" "publisher"
+			"name" "Movie Games S.A."
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "HeartBeat Games"
+		}
+		"4"
+		{
+			"type" "franchise"
+			"name" "DRAGO entertainment"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "28"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_18" "1"
+		"category_33" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_23" "1"
+		"category_29" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"vietnamese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1631725080"
+	"metacritic_score" "72"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/gas-station-simulator\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1149620"
+	"store_tags"
+	{
+		"0" "599"
+		"1" "4695"
+		"2" "1643"
+		"3" "4182"
+		"4" "492"
+		"5" "7332"
+		"6" "3839"
+		"7" "12472"
+		"8" "4175"
+		"9" "1654"
+		"10" "1695"
+		"11" "3859"
+		"12" "1702"
+		"13" "4136"
+		"14" "597"
+		"15" "84"
+		"16" "10397"
+		"17" "5350"
+		"18" "5363"
+		"19" "6426"
+	}
+	"review_score" "8"
+	"review_percentage" "88"
+}
+"extended"
+{
+	"developer" "DRAGO entertainment"
+	"publisher" "DRAGO entertainment"
+	"homepage" "https://gasstationsimulatorthegame.com/"
+	"listofdlc" "1940030,1992100,2126170,2137370,2600880,2782920,3014630"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Gas Station Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GSS2.exe"
+			"arguments" "-Storefront=SteamOnlineSubsystem"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "GSS2.app"
+			"arguments" "-Storefront=SteamOnlineSubsystem"
+			"type" "default"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "GSS2.exe"
+			"arguments" "-d3d12 -Storefront=SteamOnlineSubsystem"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Gas Station Simulator (DX12 Mode)"
+			}
+			"description" "Gas Station Simulator (DX12 Mode)"
+		}
+	}
+	"steamcontrollertemplateindex" "6"
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,spanish,russian,polish,turkish"
+	"hasdepotsindlc" "1"
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229033"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1149621"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5762363837143223773"
+				"size" "4424272074"
+				"download" "4148933264"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-mac"
+			{
+				"gid" "BFFE0C47FBCF98526BCD30165FF5D73D"
+				"size" "203A836179B4BAFD7F7521B6FD9AACFC"
+				"download" "F1196EEB1D9595597F52A1D06D665E83"
+			}
+			"pre-release-access"
+			{
+				"gid" "970B132CC2BF0414F954311B226180BF"
+				"size" "FC3D34FBC2E6AF252DE71B7E14DF4CF6"
+				"download" "8E64F65DA4E41743C0E330BAFABAB005"
+			}
+			"ptr_branch"
+			{
+				"gid" "CEDB9050819381D82C19684AA39EDF64"
+				"size" "9B22C06608B8A3DD24C0AED55BC8BB38"
+				"download" "BC88F122C9ADA601E480B7285470980B"
+			}
+			"qa-indium-play"
+			{
+				"gid" "BE4599B9AFBE1942FAB4C36E3DCAEBC8"
+				"size" "A84F6844A7652AE1122DC578AD9A0823"
+				"download" "14C6B55F4D11EAF478C145DAD816132B"
+			}
+			"dev-branch"
+			{
+				"gid" "2DEF7C5D5065333F175BF40407C8192C"
+				"size" "EF9CD3184A72003E18B2EADFD92A0379"
+				"download" "0763872D357709FB00705B98A742076D"
+			}
+			"dg-dev"
+			{
+				"gid" "ACC664AEA0CA3A01F47782C9C97CA828"
+				"size" "1047703D9B93C9DE238BBC3B2A6B2CAE"
+				"download" "49F2794A83AF4F39D96010DF4CE98C68"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "CCCB7E0E6B301BCE4A55743A099783DD"
+				"size" "F046347E421A6A815477EAA904205DA9"
+				"download" "A4ED728E099658DAEB097586647F0CF1"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "8A22A4348C0D7C725470E8E034F51434"
+				"size" "BC3EBFD29F4A621C324AE6DA77C30D79"
+				"download" "AE9EC6BF757F4107A3156BA70E8928F0"
+			}
+			"pre-release"
+			{
+				"gid" "7C693280B9064C5DAE69875EC1F1F923"
+				"size" "2EE9185DA559CF4B925386A3145C1678"
+				"download" "A83C61179B6B6E1C5D8406A5FF516027"
+			}
+			"previous-live-build"
+			{
+				"gid" "81DC501B0F6BA076120CB667D7B6D4A1"
+				"size" "8701F08B06AE7771BC603853090AC09A"
+				"download" "479B26539A6FA436EBB54C5525347D92"
+			}
+			"qa-branch"
+			{
+				"gid" "E4B50B746C48EBBA2DEB4FFC162C0544"
+				"size" "5D8D4E689C49B86D239192FF1B4D1942"
+				"download" "D71941B26E816C87A3638D3264791A2E"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "DE0C4F9126DCF57CE716A3B7450D9B33"
+				"size" "0B16807BE1FEF5031892D04E01D42CA7"
+				"download" "01ACB4F4ACD2431AB30073AA6E454626"
+			}
+			"qa-duality"
+			{
+				"gid" "D2F36AB325181EBA99B336B0B4378D9E"
+				"size" "E14CAECCD4A81B7F730EB795A731F21E"
+				"download" "E43C930BAB17128CCBE3476708CC7C58"
+			}
+		}
+	}
+	"1149622"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4416692825307357664"
+				"size" "10420166528"
+				"download" "8827431472"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-mac"
+			{
+				"gid" "356D3DC984FB6C4E2A78ECB597A5A940"
+				"size" "B6FFF0D0CB8FB20B1D39DAB6BD72803F"
+				"download" "B9B072DB9502FA27B649AE4274A9F2B3"
+			}
+			"pre-release-access"
+			{
+				"gid" "6BF78EE25A1F36A2C902310C363E182C"
+				"size" "F0706DCEE939135B81A15595AFFC4654"
+				"download" "73F2A304A34BDCD53E9FE4F7D23EB937"
+			}
+			"qa-indium-play"
+			{
+				"gid" "5765C0A19EADE1B787FA52D8A42CF334"
+				"size" "A08C9820297E9D769D60ADD4A06E987F"
+				"download" "3B91B9095342AAE45883F4E3C49EF74A"
+			}
+			"dev-branch"
+			{
+				"gid" "3B027113DDB650608AFD5F6D076D7EFE"
+				"size" "6FA0735892F56B6A649ABA1F0F013F1D"
+				"download" "99FCD13FFE29320698EB481F5551F4A0"
+			}
+			"dg-dev"
+			{
+				"gid" "3F5C9C44EDA56C98017A6BAEA97B5BD6"
+				"size" "D95F0E9B7AD1624AAD5089B19A81BB83"
+				"download" "1C7AE3170BECDB51B0E0246FA46BA0EB"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "7C84CF0F1070D9A4FDB71D6F3866715E"
+				"size" "A7FEFE285E16C6854A4669D485CCA547"
+				"download" "E7809543D4351186AAD611C21FC1F652"
+			}
+			"pre-release"
+			{
+				"gid" "9132B59A21445F8A4963E5CFE7EA8BF3"
+				"size" "DEEE9FFF4268C85547A4DE6EFEE92BA8"
+				"download" "C6F342A614B5C1B7B89E7265349B5E42"
+			}
+			"previous-live-build"
+			{
+				"gid" "EB49B57405A9664E82A5550C1F4F792C"
+				"size" "306763CB823D3B32E517515AF5FF6747"
+				"download" "1E807AEF2A524244689E2E7BFCD1A48E"
+			}
+			"qa-branch"
+			{
+				"gid" "EBD34DF3E8F5F8565F515057E632AA0B"
+				"size" "D492A382FF33C175D2D1E0BC7056B783"
+				"download" "CEB1089DA955ECDB15D8181CC1BF133A"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "B25628D67CEB8C74599E9F28645A8626"
+				"size" "FF0B5BEFC8058DF1FE9E9BE634688727"
+				"download" "46B470CB59AE94E290ECAAA32F9728D5"
+			}
+			"qa-duality"
+			{
+				"gid" "CE881B40D0976D80E082ABCEAB18F521"
+				"size" "343FB5587A34747BB29CE75B2C77AA26"
+				"download" "F9B05FC91AFB5590CBEA75B29D143F27"
+			}
+		}
+	}
+	"1940030"
+	{
+		"dlcappid" "1940030"
+		"config"
+		{
+			"oslist" "windows,macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"pre-release-access"
+			{
+				"gid" "3DA0A949C70A464A27654EE6E0076833"
+				"size" "CDFDE1919D35AF364386FA956117A961"
+				"download" "FB6BCA65670D888D40465BA7003D4929"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "998E6B04D760B924F682F5E6D6D0584F"
+				"size" "4A98D7F6E559BC09E8FA222F26E6C0A7"
+				"download" "5EE56B096A7391C4CEEB6123CE832C5A"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "405D87B1F2EA13D800ADCCCA9E58D4AC"
+				"size" "A647B0813A7ECFBFC67C40D6D7F6708C"
+				"download" "1A7DC384E51A297F1A3B6F5B67299F72"
+			}
+			"previous-live-build"
+			{
+				"gid" "F762C175C132A1DBBC50C89047D05C19"
+				"size" "2B2D491F507B97D90A962C5A7A75CB9D"
+				"download" "8A037CFBFC93AAE9BB146D6878F7C52A"
+			}
+		}
+	}
+	"2126170"
+	{
+		"dlcappid" "2126170"
+		"config"
+		{
+			"oslist" "windows,macos"
+		}
+		"manifests"
+		{
+		}
+		"encryptedmanifests"
+		{
+			"pre-release-access"
+			{
+				"gid" "D1D573A44B8A103C853636AF9386EDDC"
+				"size" "51AB26A39BDFD71E6CAAE53DB976F997"
+				"download" "06ADE34C0C1A1AF23BF01BCE6F490336"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "FF8960B3FF2E1BFDB62ABFAB34198610"
+				"size" "FCB46829AD80C70B7278991A647962EB"
+				"download" "5AFCD9CC73C16192B1134B7F7B359E1F"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "8EE4D8F24495EADB6C3F67DB4EED04CD"
+				"size" "ADFBDB97A2852E5A07A995AA6E025DDE"
+				"download" "CFD5ED9AB3316F29F1FF45CFCBF6C523"
+			}
+			"previous-live-build"
+			{
+				"gid" "5A863D9ED7F7496A5827ADC58AE3A0D5"
+				"size" "E9EA4AB8BD0D933EB2B7C8AFB712BCA5"
+				"download" "C5E1B2E8DF31504975434D41C5B3C440"
+			}
+		}
+	}
+	"1940032"
+	{
+		"dlcappid" "1940030"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4027546228457804139"
+				"size" "1862674501"
+				"download" "1655946384"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-mac"
+			{
+				"gid" "A3E661F55516AE6059BBA556EDDE9E05"
+				"size" "75528DEA01393EA32C4A0499CA34B206"
+				"download" "AD186E145AEF6992788833964C70E0B9"
+			}
+			"pre-release-access"
+			{
+				"gid" "B588D422985A8C977999F633FE0E1529"
+				"size" "2B9785BE9CFAFB5A1F06E7991E360AF6"
+				"download" "52096BEF705DDE150ABE2828A73FF659"
+			}
+			"qa-indium-play"
+			{
+				"gid" "68B8BC6EF5F48275322D274450266CF0"
+				"size" "98616BEFB231F0D82DFD2E681A1CEBF0"
+				"download" "A4D40D903B22246DC1C34525F17FB56B"
+			}
+			"dev-branch"
+			{
+				"gid" "20863E0EDD7387A3B75C69C8572119DB"
+				"size" "25D9921754C4C7A03DCB18110A3056FE"
+				"download" "C7985458A4338D9A2A73ABAE42660C17"
+			}
+			"dg-dev"
+			{
+				"gid" "9C90CF6621A09EB654DECB42ED643CF0"
+				"size" "2444B1CECCBD371142263D0B51930B8C"
+				"download" "16D3DA2B7BDF1402542B34506DEC97A0"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "330BBE7CFE1F8DFAFA5BC5663E0CC82F"
+				"size" "7A2C697326B36AB396FDACC183FDEBD3"
+				"download" "625A53B5EF28A0A6A22567F5AA1FDB18"
+			}
+			"pre-release"
+			{
+				"gid" "80D413F64B8AC3E67E8A8C2CFC1D3E6A"
+				"size" "07B46DE05621AD6E2E2882D4575A783E"
+				"download" "58099618A1DD913B43D7F416237321D8"
+			}
+			"previous-live-build"
+			{
+				"gid" "D27973A2F9D1068B929E6F0770C605D0"
+				"size" "503AB11AEFEA565E30F41D30AE853425"
+				"download" "40F99C99C625029B699EADDA050C9D25"
+			}
+			"qa-branch"
+			{
+				"gid" "722AC7EC43F014D5B7103EEC2A77E792"
+				"size" "AD2F73F4888F67985E49F4B31336A5E3"
+				"download" "DFD4006AB69B21D4FAB978230941AC81"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "D93317585C99A9BADDBFE86BBE36793B"
+				"size" "963D0330F9B03779E5A118B4524741AA"
+				"download" "CD86BFF7D53ACC4F3025A0CCED3FE9ED"
+			}
+			"qa-duality"
+			{
+				"gid" "FDD3E181A757F988903F6C3952888F5A"
+				"size" "3E5E317C47C8D09C1D762DDD53A20DB7"
+				"download" "9A9C43F6530DEE30446077C5F6C63A48"
+			}
+		}
+	}
+	"2126171"
+	{
+		"dlcappid" "2126170"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2050388504816997406"
+				"size" "371343106"
+				"download" "350621840"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-mac"
+			{
+				"gid" "46BF4EE8002446902FAC25E65C0C24F2"
+				"size" "8C0C4039832A5A7376B0C118B7A0B707"
+				"download" "C3AFDCF3DD1616C6B50FB7859B626678"
+			}
+			"pre-release-access"
+			{
+				"gid" "08BA9F640C1E5C778361D27D6FF3EE25"
+				"size" "58B36619BD727CBDA028414955C834B8"
+				"download" "EC2F6069D6E6D4358248DFD2210DFBFA"
+			}
+			"qa-indium-play"
+			{
+				"gid" "8FF546D8F0D148F2DAEC34F44A5C4332"
+				"size" "7B8C64A4EA5911A9AAF36EEFB29A134F"
+				"download" "23AA546CC3C6DB1E57A172FF89ECBC41"
+			}
+			"dev-branch"
+			{
+				"gid" "74E83563B92F3EB2300ED8C7521E0046"
+				"size" "C768BCD90ABD4A211A1D338D9304A164"
+				"download" "C28AE67BCBB23214D69683900ADA3561"
+			}
+			"dg-dev"
+			{
+				"gid" "D1651536EEB86664203B6CB9988127F8"
+				"size" "258DE6CD0979BB56BE43C9DB654D130C"
+				"download" "93799E90A21D8D242F0D79E6EF05AE13"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "A5B15ADEE1726E6A1235FC4EE0CA9167"
+				"size" "331545B55FF4A227110F6840B530586E"
+				"download" "3A753BA4248C687CF715CE84EE932F36"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "F0176AED8B01735E0C5ADCD583EE1E9D"
+				"size" "3085A514AB708202BA48F887062B3D80"
+				"download" "2D4E9786D10DA811369C13669AA6E3D0"
+			}
+			"pre-release"
+			{
+				"gid" "06D391EEB47A3E12A1A217D9F3549902"
+				"size" "C29162052D17B1432476825951D6D32C"
+				"download" "FBD73290957C281ACEFBE6A19304DCB5"
+			}
+			"previous-live-build"
+			{
+				"gid" "B39F18890965BCE6CB3D8D8CB9B66825"
+				"size" "6E8C8D74F072F326A75833F26257F8A5"
+				"download" "538CF3186E30CFABB275D3B42A811784"
+			}
+			"qa-branch"
+			{
+				"gid" "03BCEFA0863CA868EB30DAFB21607391"
+				"size" "56DCA47EA39B27640DA5F0556374C33F"
+				"download" "FCBC5FA0EA4CB96F991D67C88BE63A87"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "AFDF7F72527EF0D5DA6D0BB36B49551A"
+				"size" "A6620A4AD5A33755C2740C12D1BF5784"
+				"download" "414634B2BE84CE10859C119752E4E542"
+			}
+			"qa-duality"
+			{
+				"gid" "795D6A1B662D3DD41B14E9A910AC897C"
+				"size" "21FCD667D037B9371AC22F9B315DF94F"
+				"download" "126C08FAC9404B7107866F80FDBDD502"
+			}
+		}
+	}
+	"2126172"
+	{
+		"dlcappid" "2126170"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3675774904019609921"
+				"size" "432187484"
+				"download" "386730416"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-mac"
+			{
+				"gid" "61524D24A31333ED47312433B2C183D7"
+				"size" "B4388D153714DE2332515F255932CE2F"
+				"download" "4C9F84FE63B3D3258E127CD14BBEB145"
+			}
+			"pre-release-access"
+			{
+				"gid" "9B23FBD2ADD6BA6105EE5C8C9082B901"
+				"size" "BE5D1F9775F705101C5742EF43F67D91"
+				"download" "B5E7CF3A42FC38154585FFDF97980857"
+			}
+			"qa-indium-play"
+			{
+				"gid" "2BA6638C102C1A9E986068E3BD268BDC"
+				"size" "50CBD5B766AF7E2D9B5555CED99F0EB2"
+				"download" "7914AEF98E0C93795AE5808C67786491"
+			}
+			"dev-branch"
+			{
+				"gid" "668B42E8A8C0FFBFE950B44D618BAA2F"
+				"size" "E1D8F7FE02FFC8660A6352D72B29F4C8"
+				"download" "D8AE45E37C02F780AA3DACEF28AB1EEC"
+			}
+			"dg-dev"
+			{
+				"gid" "D8214B2A63590D382C06FB4008341C4D"
+				"size" "22A0A599BFD2DC6EB05E8508F46377B8"
+				"download" "B278439B6793A92158E4F63521DA50FB"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "D56B9A56D7A458864D112B71C87483E2"
+				"size" "FFFC76C050D82F3D0424BDF53F43AB16"
+				"download" "35FC205C733C4E7A2EC9DE6AF5492456"
+			}
+			"pre-release"
+			{
+				"gid" "AC803F826F1F082A4F13DD07E2020E35"
+				"size" "8A13A1E7BDCA84B85DB71ABE35A8197F"
+				"download" "F9AD7F384EE58FD8E76CFF88D16ACB3F"
+			}
+			"previous-live-build"
+			{
+				"gid" "F8C28458888B66D43EB70BB194CA24F0"
+				"size" "4A08C8585EE12E8BE99F6CE86216A7A7"
+				"download" "2F14BEA7E918792DE0632818E16DEF4B"
+			}
+			"qa-branch"
+			{
+				"gid" "6B047AA73CD6FBC25030523D9BE1936E"
+				"size" "06FE01393639DE00D96294E382D352AC"
+				"download" "32ED94B3D7AB2FA4DC0E52F3767C5412"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "D31281D73F67F3BEE01C094A5784644A"
+				"size" "37FA33EA6820435FE2C97B2788CACCF0"
+				"download" "C1523518CBDC61259F3E4159B13B3C25"
+			}
+			"qa-duality"
+			{
+				"gid" "82B5C74FBB64E89420108AED127277DE"
+				"size" "7FFA2BFF6E759BDE3631729B57982AAB"
+				"download" "6B69E3B5DCA46CE6397D833EAD754D1F"
+			}
+		}
+	}
+	"1940034"
+	{
+		"dlcappid" "1940030"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5555229523001994426"
+				"size" "1665201414"
+				"download" "1535193440"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-mac"
+			{
+				"gid" "6E1FD7369EAD63935F64D8A452F28FCA"
+				"size" "E198093CF9568BA650773AFFAC4E4D28"
+				"download" "052BC8F8278FC409729F0CD9A8535660"
+			}
+			"pre-release-access"
+			{
+				"gid" "2546276A5D47ABFC00E18896F0D6D649"
+				"size" "0F7F47C9B33E2A35D886B0B26869431D"
+				"download" "A685E7DBB144A2B42FB9F8061831112D"
+			}
+			"qa-indium-play"
+			{
+				"gid" "116D403E95B904D0F460F2569743B640"
+				"size" "9507A26959EB86819E2C3DF8631C08BF"
+				"download" "9BE4BE059A4DF8C3AD955ACC9DA1C619"
+			}
+			"dev-branch"
+			{
+				"gid" "F1DE5752A6BA949A089459F4BF544DE9"
+				"size" "FD8F3FBE4574D1C6F5565A46CFC371F6"
+				"download" "975265D8ED75DCCC58E2D2F01D8B86A3"
+			}
+			"dg-dev"
+			{
+				"gid" "F4DE6881E9F4DA0334AE96AD14FF9544"
+				"size" "3BF4186AB6E36F2BD1E5B456C7C7CF39"
+				"download" "5C33D055017F67A60AE51B87FD470AB3"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "99A38059B399335CB7D10762ED4D8C29"
+				"size" "F3581E0CC3B2960C4F2CB812A3C7A5CF"
+				"download" "59799F4777B622CBD53A8A6645418C2B"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "12A00C860E9635C412D5B00AB27F9F94"
+				"size" "45B230A624A6109CD3EFB0D4D595927F"
+				"download" "35E7F39728E1A4D78316111E10A6DF5E"
+			}
+			"pre-release"
+			{
+				"gid" "A02BF4FE98E461A23FBAA601064F827C"
+				"size" "4B73C279AAEC5E6E1FA66E154F68F487"
+				"download" "01F091DE041B35CEBEDD0FBC0FB3352E"
+			}
+			"previous-live-build"
+			{
+				"gid" "446D02B4A60B4026AEBE6F1696FD321A"
+				"size" "71243401E4A2893D2632931ADEC76CE8"
+				"download" "0EE4F61ED1E25D921809D17F8B14531A"
+			}
+			"qa-branch"
+			{
+				"gid" "4F43EF898A2E77FBDC1452281AFE225B"
+				"size" "4B568FA59998E7396F53449E04F3EF25"
+				"download" "FFA6A7846DF40951812B45FD777F5319"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "7876340C5AB4748A77E12ED0E0F3A544"
+				"size" "996A16F53FD24096A1C9708ED4C7F2E9"
+				"download" "A8E440C30BBEC987D49CC5625E40204F"
+			}
+			"qa-duality"
+			{
+				"gid" "95E972B9D159DE103676915D7FB32EBB"
+				"size" "C4AA4E75F41844C62154BEB069D67CC4"
+				"download" "82C19930E5AF3A52BEA87A135348E197"
+			}
+		}
+	}
+	"2137370"
+	{
+		"dlcappid" "2137370"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2880068495011934805"
+				"size" "1545147240"
+				"download" "1480266480"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-release-access"
+			{
+				"gid" "526FEBBB4CDA5C3F6659B6F7C5759189"
+				"size" "434861B97034724EA4E950A8FC53CBD0"
+				"download" "FFB602732AC7CE3A796F593964173FDE"
+			}
+			"qa-indium-play"
+			{
+				"gid" "E2C025FF66B9EA2393C51B29F105D9D4"
+				"size" "9A6B7F1EA7768F4C069FD8FA75982194"
+				"download" "D7024322866358F627E264FE15518606"
+			}
+			"dev-branch"
+			{
+				"gid" "E25F24362537C80628466E5EFFDD27A4"
+				"size" "FFC121A9C66A88EA0835FB4484383C3A"
+				"download" "2369DFBCB4BDAA2972EE76061CD461B1"
+			}
+			"dg-dev"
+			{
+				"gid" "E0C40BEE0F3458FD6BA7F5DF1A1266C9"
+				"size" "EE57A4E7C3A81341E3DDD5273A08451C"
+				"download" "812104E353B278D8997C28ED3B515240"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "F404D21239CA709A7D3A9BB14E5AE8FE"
+				"size" "5D4DB3F652F14633116C381DD84A1B91"
+				"download" "697475D3C2E3E1F7AA7435E08FCD9470"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "2FFE4F7AC3FE7FC323488FF1D0FE2BC2"
+				"size" "93549F47B325EAC1CCA4C632F6855503"
+				"download" "AE5FD731FCE7CAAD39E8BF84459C4050"
+			}
+			"pre-release"
+			{
+				"gid" "4D01EA8F4DD4443043593129A221E2A1"
+				"size" "5E5BBCA72F7D3FB8674B90436E1356D9"
+				"download" "F382832B7B093EC1AA6040A559841BEB"
+			}
+			"previous-live-build"
+			{
+				"gid" "921FBFB53DD8573590EBDBC7923CBFAF"
+				"size" "73D69237FE98B29C6C843D13282C3E28"
+				"download" "C4DE8DA69F1DAA611B5F4D5164BE77AD"
+			}
+			"qa-branch"
+			{
+				"gid" "A38A64396285F56E0C4967B659789ED1"
+				"size" "3E0F55C21EC26B8FFED3E1AB0A34BB18"
+				"download" "7D8CD483922C139F1F099DC92E9BDED2"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "D7D84764CB3743673ABE839FDCFA7744"
+				"size" "51A0E40C6F1B3382D6AA5F909D915262"
+				"download" "658997B3C7236B58F9034FEDAEDD6D8E"
+			}
+			"qa-duality"
+			{
+				"gid" "CE9C0E68B181820523FCBC6A7399924E"
+				"size" "73C171CF6462B40EA5F7E49FCA4B8D5A"
+				"download" "B54DC31F95081FBA8AEAD41D0D66796F"
+			}
+		}
+	}
+	"2137371"
+	{
+		"dlcappid" "2137370"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8668650626211606623"
+				"size" "2031123743"
+				"download" "1746085552"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-mac"
+			{
+				"gid" "FA75E225CE372ED391D92138F2876A78"
+				"size" "268AD47C419B1D8D14C44E411B2AB4A8"
+				"download" "9C309081E3381A323EB7728E3DF934A6"
+			}
+			"pre-release-access"
+			{
+				"gid" "C1DD9A211EAD7EC1F8AC4B02DEFC9FBA"
+				"size" "7562AB2F4712D48CDE6BE364C1582335"
+				"download" "A0EFF028161AC90F52AB12CF772661C6"
+			}
+			"qa-indium-play"
+			{
+				"gid" "99296166C7E429B4AC2F9F27558189C8"
+				"size" "1A8950715F222092AEAEC77DEE773968"
+				"download" "30E6DE45899619486CB85B508E0934BA"
+			}
+			"dev-branch"
+			{
+				"gid" "3FD0965BB9393635AD4F10B9A7038A76"
+				"size" "74F54587F2FDC82C3A875151A7B5130E"
+				"download" "09D9E0DD6D193C22CDACE459C7685E9E"
+			}
+			"dg-dev"
+			{
+				"gid" "06AE340A8F439DA81D2586F041CBDF1F"
+				"size" "AEE1E3BFEEA9169BD95253BF0EF95065"
+				"download" "E24D9D8193DDEC0870310D7726D042DB"
+			}
+			"historic-dev-branch"
+			{
+				"gid" "2AD3F7B7FA5885459BD9A391D75FD7D4"
+				"size" "4B5D41D36B0744A608A394410AD5FF83"
+				"download" "B1A1C058563658EDC76B1C3AD92398F9"
+			}
+			"pre-release"
+			{
+				"gid" "DCF05378A597BD843882860C5D53FCC0"
+				"size" "EF716D61CC18880D318250A2FF8D89AD"
+				"download" "F41DD3A3198B80634B24E730D31DAD42"
+			}
+			"previous-live-build"
+			{
+				"gid" "F20A5A0E3B459FFAC798DC0991AC6F3B"
+				"size" "437E67CF68BF947BCA649B09FC15107F"
+				"download" "94470A55347BD888E742C4027E5BA55F"
+			}
+			"qa-branch"
+			{
+				"gid" "041DBB4CDA2FF88255283021A67AF162"
+				"size" "90148FA92AA28B5C07DA8F7BE0EB12FA"
+				"download" "8B36B6E8605888C7FAB957372F31F677"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "EBA1A3AB19B3DFD95B980809E521A245"
+				"size" "CCCFD926E532245D6A4CC72F92842B10"
+				"download" "2F04728132B85E293F6186A51A63A4CD"
+			}
+			"qa-duality"
+			{
+				"gid" "FD75D0BEBCA3D627EF93A40156F1BBAE"
+				"size" "8058C8F4AD3EF5241B448A870E87E619"
+				"download" "F6B134E780B02426BD775588AD16B1E5"
+			}
+		}
+	}
+	"2600880"
+	{
+		"dlcappid" "2600880"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3196882476382807779"
+				"size" "2898395581"
+				"download" "2774657968"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-release-access"
+			{
+				"gid" "BE21E1AF981FF599F2A0E3C09AE29416"
+				"size" "D234160CA6BC3D90404915B8A2517798"
+				"download" "8C9C12F4CE66E1E86037F816577233E4"
+			}
+			"qa-indium-play"
+			{
+				"gid" "7E328403433152920E09C41F2DACA487"
+				"size" "B88CD2845AD1E617EA19B5E812AEE09F"
+				"download" "1CD32A46600C3F0E68400D28475B6459"
+			}
+			"dev-branch"
+			{
+				"gid" "1C33C73DF6920F7839DB49BE7D30FE5B"
+				"size" "355D4A67C49951D249020146DB6FF93E"
+				"download" "97A56D21F93E08FE1B2F6B7E298B25C9"
+			}
+			"dg-dev"
+			{
+				"gid" "FF3AD55F7D21DB56D52BB862B8CCD426"
+				"size" "29913146ADBD8A24A33BF21E115B4B36"
+				"download" "9A0A18AADEC745CFBA1F2B0F49916F80"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "27CEE81DBE037771F1F068EEA2735F20"
+				"size" "EB0F5F0C7AE6B400B4DE9C8A7F888C08"
+				"download" "467E0F8AD27EB5D9EB3C1193A6BEF751"
+			}
+			"pre-release"
+			{
+				"gid" "2EDDB1C40449012DE53CC9B13FD85870"
+				"size" "8F0F10CEA83B3C737A63181C24DF6132"
+				"download" "B70E49AEAECFAF261432E7AD28B2CE48"
+			}
+			"previous-live-build"
+			{
+				"gid" "E78B9F36D6AF038BB8D6990C70AB4F99"
+				"size" "93C2B5F3C1374F329D84657BEBD7DE14"
+				"download" "3589F79E88772FB6CC323637336D3274"
+			}
+			"qa-branch"
+			{
+				"gid" "FD6F950D291F937770DED44F0059350D"
+				"size" "49F86FF419E136FB46732C216372FC83"
+				"download" "2485F9C0D94B11F0413CB5262A1B8273"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "2F0147887A1FD6ABA87419E84029788D"
+				"size" "A69A6756E2979FB93B0E20542A07878A"
+				"download" "A80AEF7CC3C76AC4FC4259ECD7241373"
+			}
+			"qa-duality"
+			{
+				"gid" "53322C6D4BDA94C5B9AA81937BA0FEFA"
+				"size" "02DFB9337AC8711B791FC9C4043323BE"
+				"download" "91D5AF77836CDB21A469B873AB00BDE4"
+			}
+		}
+	}
+	"2600881"
+	{
+		"dlcappid" "2600880"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2155690791843861887"
+				"size" "1063100434"
+				"download" "993441776"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"pre-release-access"
+			{
+				"gid" "882AEC749FA3E8D8D2229F2FA60272F5"
+				"size" "E31DDEC28866B19B2ADB211134FE78B0"
+				"download" "3DAB9371098823AED7A4A730F54B3E6D"
+			}
+			"qa-indium-play"
+			{
+				"gid" "36C5F9E33D61661F18F9A997793932EE"
+				"size" "C003121FCFD2DB31DBF6F4EF64D2B307"
+				"download" "88C9D6929E5FE8C65B189D62DFEA074E"
+			}
+			"dev-branch"
+			{
+				"gid" "A86DEC44AED1CF066C62BCACD7014D80"
+				"size" "B24EC58A7A09CA35A4A9621B5287F354"
+				"download" "3A8E9FBEC1AA2DEAADB5FD6538B13FA1"
+			}
+			"dg-dev"
+			{
+				"gid" "29BF1C11DF8BCA868040FD6E2BF23C92"
+				"size" "595E6CADB90364EE3808889F4A147294"
+				"download" "DCF533470D3A22C40573A0A120A02993"
+			}
+			"pre-release"
+			{
+				"gid" "8156427C779009BF84F0B8636C22D22C"
+				"size" "C9284F7BE19EC9E1E8BB80A99F864873"
+				"download" "AC99A273C2EADA0AE0D1DC9A3D17F872"
+			}
+			"previous-live-build"
+			{
+				"gid" "D73C816062281623A1D18F4F76F72AFD"
+				"size" "A47D7291286702FEE6D59E2B8910D1F4"
+				"download" "88DD6958D59E22358ED480EA379CFBD9"
+			}
+			"qa-branch"
+			{
+				"gid" "9D4F6063EBD7917F2F2975A6F5F5B6D1"
+				"size" "6ECD142430E1C2DD0F0C27E936CA61B5"
+				"download" "D16D04A644D8EDB3BB7D2ECD3115BF17"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "A20C1BC31E8F5B99789FDCD16225FE24"
+				"size" "A04B2BEA8D92252058134F87D42BD194"
+				"download" "6F9E418CC55A8B4EBA276688EF162E9E"
+			}
+			"qa-duality"
+			{
+				"gid" "982C19440E7C8D01EDA5147D13F2339B"
+				"size" "DCDC3619DF9BCB4C579ECF0D3E280673"
+				"download" "C24C2B23F0C5132236BA9978B283DB64"
+			}
+		}
+	}
+	"1992100"
+	{
+		"dlcappid" "1992100"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5589880026521243576"
+				"size" "3300208"
+				"download" "2300176"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-branch"
+			{
+				"gid" "722A3D2B7388B587110E3CB46882A537"
+				"size" "F51E87DD99A58EA318FA04B6A3C420D3"
+				"download" "611F3DD0084FB541C3DD10907C3519EE"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "1D15510830B4D2B0DDE21B08CFAF3091"
+				"size" "5C47C850685676EA1B3D4FCA6694AECE"
+				"download" "5408D88A824B010DB66F52F6D40C41F9"
+			}
+			"pre-release"
+			{
+				"gid" "EA17EAB6B06ADAF2507F2574C58A02C3"
+				"size" "BB935450C1B07886A8EC90535324C2BD"
+				"download" "4AB46DCF152BFA500A1CC84A9C20E7AA"
+			}
+			"qa-branch"
+			{
+				"gid" "1E9592FD609E8184D425EF0AC52C06D3"
+				"size" "6ED57922DDF97C181C4F216E81FC594A"
+				"download" "59F3D73B92E3ED575C2A404C18B19399"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "F4DB8D1CEB1BCEA3C94689AA4CBA0C18"
+				"size" "D4B383C64002B47E8BAA0DCA69F3C600"
+				"download" "6BF66CB4D941DC671BB2733AD1BD2407"
+			}
+			"qa-duality"
+			{
+				"gid" "BC7889587898667D94BFEB8A0D1005B1"
+				"size" "A4CB67E4576FB929C88C6B824545F820"
+				"download" "C9B57D0CB877CDD43410A574C1C25D58"
+			}
+		}
+	}
+	"1992101"
+	{
+		"dlcappid" "1992100"
+		"config"
+		{
+			"oslist" "macos"
+		}
+	}
+	"2782920"
+	{
+		"dlcappid" "2782920"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4017027268060309798"
+				"size" "1394307970"
+				"download" "1358415840"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-branch"
+			{
+				"gid" "74EC964CC8013C2D31818897A45007FF"
+				"size" "D8793C760E69A9009332B6E309059BCD"
+				"download" "60A020839E0CB3FC55461C03E048D4FF"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "797862E51F06AF0F2DEA353ED30FAFA7"
+				"size" "26B744C6B6ED57048EAC01F5906FC7AB"
+				"download" "CD9D62E83462115CA9685D51D145A1D2"
+			}
+			"pre-release"
+			{
+				"gid" "30EADD49BB18CA81AED43EF1EA378A29"
+				"size" "980D21163C296F87CFC6875AB0D5B002"
+				"download" "0529D52163802F25D8EADF64ECD6F5FD"
+			}
+			"qa-branch"
+			{
+				"gid" "A074BDA8DC6ADF9C2A386A0AC689543D"
+				"size" "60BA04A7182EF2A9B239236921D8162E"
+				"download" "465169FA1B2C5B3C12D5CC1A7645A598"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "1B05302BB103238EE7E55213CF8C1F3E"
+				"size" "7C587DC8E11FCCEA614DE7CF53E2BB5C"
+				"download" "37D56DEE59F71CABB074CA6DCFD49AF1"
+			}
+			"qa-duality"
+			{
+				"gid" "3B5127071E3F59610C3D3EF99899C3A1"
+				"size" "C5BBD56159C27263D26B8E91A7C4A342"
+				"download" "9FD367E137F28FDFA42CA0E13A91A175"
+			}
+		}
+	}
+	"2782921"
+	{
+		"dlcappid" "2782920"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6109292570906610075"
+				"size" "566797774"
+				"download" "547364400"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"qa-branch"
+			{
+				"gid" "AFB9F3C6D163C6220C24EC0EEFAB501D"
+				"size" "11DAAFF26A612935FBF730136B52F0B3"
+				"download" "C987E4030614AF4EFE9D1DA89D02DFCE"
+			}
+			"qa-duality"
+			{
+				"gid" "A0B339620E6D6B015576825BFE42F4FA"
+				"size" "8E7B3296A39858DAFCC7A33B95F1AF94"
+				"download" "82B35F155E193970EE2E738E12E361E7"
+			}
+		}
+	}
+	"3014630"
+	{
+		"dlcappid" "3014630"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8525895500826618153"
+				"size" "9733012"
+				"download" "8586784"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"dev-branch"
+			{
+				"gid" "D7AF2733CE873EDD3158052C2FFEE5BB"
+				"size" "C57034608D59DB9F6370A7878AFEBFFF"
+				"download" "857A1A7901CDB72CC3E76F4C481A33B3"
+			}
+			"performance-dev-branch"
+			{
+				"gid" "2E93ECAC4F7D3901C4C0F3873EBE3933"
+				"size" "EE110E8E54B207BF87E11F07D165B948"
+				"download" "C9E18643B702225649ECFA6F2F825CA5"
+			}
+			"pre-release"
+			{
+				"gid" "D5909C4C2F861864D981FF7BE6CC225F"
+				"size" "4F252B1EEADA8A291E19542DE3C79545"
+				"download" "F03038FB4AC01922A2CBBA45E96384FE"
+			}
+			"qa-branch"
+			{
+				"gid" "738F7BF2F37834EC59898986EA837C9E"
+				"size" "0FFB79A79F975AEB60C30E11DA4929E7"
+				"download" "5DEE526C09C1DDDD6A745BA51AF28831"
+			}
+			"qa-dev-branch"
+			{
+				"gid" "2CAE041CBBF05575CA7A9CA382BCDDE6"
+				"size" "995F1B1CDEF5A7D6A4603F76A45BFFEC"
+				"download" "865F69CE1A63949244719B1732428C4B"
+			}
+			"qa-duality"
+			{
+				"gid" "5E8BDD82D6C3FD90B9BEF4ABA57FF26F"
+				"size" "21DE79329FBAFC6376960D00D684B8CF"
+				"download" "F7B09815515E3C771815A12F27482316"
+			}
+		}
+	}
+	"3014631"
+	{
+		"dlcappid" "3014630"
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6167671340729192081"
+				"size" "5016095"
+				"download" "3473760"
+			}
+		}
+		"encryptedmanifests"
+		{
+			"qa-branch"
+			{
+				"gid" "C9E5793CEA9CBB4CF8F3A689AE91CCF3"
+				"size" "5634F26ED596B2BF1FFBABA924A52B6C"
+				"download" "A073C1584E8E1ACD4AE320FB9E9484CE"
+			}
+			"qa-duality"
+			{
+				"gid" "2284C18E0DABF975D1A7B8DE0D97A9EF"
+				"size" "98C456695D18FCF430FE0432B52CBDF5"
+				"download" "B841CB62A788D622CAB69FF95E176B69"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "15088061"
+			"timeupdated" "1721405283"
+		}
+		"dev-mac"
+		{
+			"buildid" "11087001"
+			"pwdrequired" "1"
+			"timeupdated" "1682434873"
+		}
+		"pre-release-access"
+		{
+			"buildid" "13754721"
+			"pwdrequired" "1"
+			"timeupdated" "1710519575"
+		}
+		"ptr_branch"
+		{
+			"buildid" "8479663"
+			"pwdrequired" "1"
+			"timeupdated" "1648817300"
+		}
+		"qa-indium-play"
+		{
+			"buildid" "13857730"
+			"pwdrequired" "1"
+			"timeupdated" "1711461986"
+		}
+		"dev-branch"
+		{
+			"buildid" "15355740"
+			"pwdrequired" "1"
+			"timeupdated" "1723556287"
+		}
+		"dg-dev"
+		{
+			"buildid" "14174471"
+			"pwdrequired" "1"
+			"timeupdated" "1714057533"
+		}
+		"historic-dev-branch"
+		{
+			"buildid" "12902215"
+			"pwdrequired" "1"
+			"timeupdated" "1716893681"
+		}
+		"performance-dev-branch"
+		{
+			"buildid" "15457601"
+			"pwdrequired" "1"
+			"timeupdated" "1724315966"
+		}
+		"pre-release"
+		{
+			"buildid" "15339992"
+			"pwdrequired" "1"
+			"timeupdated" "1723542438"
+		}
+		"previous-live-build"
+		{
+			"buildid" "15003540"
+			"pwdrequired" "1"
+			"timeupdated" "1720715323"
+		}
+		"qa-branch"
+		{
+			"buildid" "15564523"
+			"pwdrequired" "1"
+			"timeupdated" "1725264811"
+		}
+		"qa-dev-branch"
+		{
+			"buildid" "15569420"
+			"pwdrequired" "1"
+			"timeupdated" "1725296427"
+		}
+		"qa-duality"
+		{
+			"buildid" "15530368"
+			"pwdrequired" "1"
+			"timeupdated" "1724928162"
+		}
+	}
+}
+"ufs"
+{
+	"quota" "209715200"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "GSS2/Saved/SaveGames"
+			"pattern" "*.sav"
+		}
+	}
+	"rootoverrides"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"os" "MacOS"
+			"oscompare" "="
+			"useinstead" "MacAppSupport"
+			"pathtransforms"
+			{
+				"0"
+				{
+					"find" "GSS2/Saved/SaveGames"
+					"replace" "Epic/GSS2/Saved/SaveGames"
+				}
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "25045977"
+"_sha" "d47f9748062b9bb7837f63abc3e19c49a9890afc"
+"_size" "38948"
